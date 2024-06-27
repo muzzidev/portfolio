@@ -1,0 +1,14 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+.proyectos{
+  .contenido{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    .proyecto{
+      background-color: v.$white-50;
+    }
+  }
+  
+}
